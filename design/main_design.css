@@ -266,6 +266,28 @@ div.info p {
   background-color: #ea161690;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* default = PC */
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* mobilní zobrazení */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+
 
 
 
