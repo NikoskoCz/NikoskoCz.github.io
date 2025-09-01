@@ -284,11 +284,12 @@ img {
   }
 }
 
-@media (max-width: 768px) {
-  button, .btn {
-    width: 100%;
-    font-size: 1.2rem;
-    padding: 16px;
+@media only screen and (max-width:600px){
+  .right {
+    flex-wrap: wrap;
+  }
+  .order {
+    flex-wrap: wrap;
   }
 }
 
